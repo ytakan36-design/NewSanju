@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ご注文ありがとうございます｜三寿</title>
-  <meta name="description" content="三寿へのご注文ありがとうございました。">
-  <meta property="og:title" content="ご注文ありがとうございます｜三寿">
-  <meta property="og:description" content="三寿へのご注文ありがとうございました。">
+  <title>カート｜三寿</title>
+  <meta name="description" content="三寿のカート。ご購入手続きはShopifyの決済ページで行います。カード番号はこのサイトに保存しません。">
+  <meta property="og:title" content="カート｜三寿">
+  <meta property="og:description" content="三寿のカート。決済はShopifyのページで行います。">
   <meta property="og:type" content="website">
   <meta property="og:image" content="images/hero.jpg">
   <link rel="icon" href="images/favicon.svg">
@@ -17,14 +17,14 @@
 </head>
 <body>
   <header id="site-header"></header>
-  <main data-page="complete">
-    <div class="complete-box wrap">
-      <p class="eyebrow">THANK YOU</p>
-      <h1>ご注文ありがとうございます。</h1>
-      <p>商品の発送準備が整い次第、ご案内いたします。<br>正式な注文番号は、Shopifyの決済完了画面および確認メールに記載されます。</p>
-      <p>注文番号：<strong id="order-number"></strong></p>
-      <p><a class="btn" href="index.html">トップへ戻る</a></p>
+  <main data-page="cart">
+    <div class="page-hero wrap">
+      <p class="eyebrow">CART</p>
+      <h1>カート</h1>
     </div>
+    <section class="section" style="padding-top:0">
+      <div class="wrap" id="cart-root"></div>
+    </section>
   </main>
   <footer id="site-footer"></footer>
   <div id="search-modal" class="search-modal" hidden>

@@ -44,7 +44,13 @@ sanju-shop/
 ### STEP 1　このフォルダを開く
 Cursor で `C:\Users\YuYu\sanju-shop` を開きます（いまこのプロジェクトです）。
 ### STEP 2　フォルダ構成を理解する
-上の一覧を見ながら、`index.html` をブラウザで開いて表示を確認します。
+上の一覧を見ながら、ローカルで表示を確認します。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\serve-local.ps1
+```
+
+ブラウザで http://127.0.0.1:8765/ を開きます。止めるときは Ctrl+C です。
 ### STEP 3　画像を `images` フォルダに入れる
 写真がなくてもサイトは壊れません。用意できたら、同じ名前で上書きしてください。
 - `images/hero.jpg`

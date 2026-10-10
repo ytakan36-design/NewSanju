@@ -22,7 +22,7 @@
   <main data-page="home">
     <section class="hero">
       <div class="hero-image-wrap">
-        <img id="hero-image" src="images/hero.jpg" alt="三寿のアトリエと暮らしのイメージ写真">
+        <img id="hero-image" src="images/hero.jpg" alt="三寿のアトリエと暮らしのイメージ写真" onerror="this.onerror=null;var w=this.closest('.hero-image-wrap');w.classList.add('is-empty');w.setAttribute('aria-hidden','true')">
       </div>
       <div class="hero-copy">
         <h1 id="hero-brand" class="hero-brand">三寿</h1>
@@ -49,7 +49,7 @@
         <div class="category-grid">
           <a class="category-card reveal" href="soap.html">
             <div class="category-card-image">
-              <img id="cat-soap-image" src="images/soap-01.jpg" alt="手作り石鹸">
+              <img id="cat-soap-image" src="images/soap-01.jpg" alt="手作り石鹸" onerror="this.onerror=null;this.src='images/placeholder.svg'">
             </div>
             <div class="category-card-body">
               <p class="eyebrow">SOAP</p>
@@ -59,7 +59,7 @@
           </a>
           <a class="category-card reveal" href="tea.html">
             <div class="category-card-image">
-              <img id="cat-tea-image" src="images/tea-jin.jpg" alt="漢方ブレンドティー">
+              <img id="cat-tea-image" src="images/tea-jin.jpg" alt="漢方ブレンドティー" onerror="this.onerror=null;this.src='images/placeholder.svg'">
             </div>
             <div class="category-card-body">
               <p class="eyebrow">TEA</p>
@@ -69,7 +69,7 @@
           </a>
           <a class="category-card reveal" href="art.html">
             <div class="category-card-image">
-              <img id="cat-art-image" src="images/art-01.jpg" alt="アートワーク">
+              <img id="cat-art-image" src="images/art-01.jpg" alt="アートワーク" onerror="this.onerror=null;this.src='images/placeholder.svg'">
             </div>
             <div class="category-card-body">
               <p class="eyebrow">ART</p>
